@@ -1,7 +1,7 @@
 fruits = ["banana", "mango", "pear", "apple", "kiwi", "grape"]
 while True:
 	try:
-		index = int(input("Pick an index number to choose your favorite fruit"))
+		index = int(input("Pick an index number to choose your favorite fruit: "))
 		print("My favorite fruit is", fruits[index])
 		break
 	except IndexError:
