@@ -1,0 +1,22 @@
+# while True:
+
+#     try:
+#         no_one = int(input("The first number please : "))
+#         no_two = int(input("The second number please : "))
+#         division = no_one / no_two  # normal part of the program
+#     except ValueError:
+#         print("You can't divide by zero! Try again.")  # executes when division by zero
+#     else:
+#         print("The result of the division is : ", division)  # executes if there is no exception
+#     finally:
+#         print("Thanks for using our mini divison calculator! Come again!")
+#     break  # exits the while loop
+
+
+
+try :
+    a = 10
+    b = 2
+    print("The result of division is :", c)
+except Exception as e:
+    print("The error message is : ", e)
